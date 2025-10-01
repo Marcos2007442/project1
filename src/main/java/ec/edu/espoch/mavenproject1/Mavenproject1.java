@@ -117,11 +117,24 @@ int producto;
         
     }*/
 
+    Estudiante estudianteUno=new Estudiante();
+    estudianteUno.nombre="Marcos";
+    estudianteUno.identificacion=23444;
+    estudianteUno.Calificacion=24;
+    
+        System.out.println("nombre"+estudianteUno.nombre);
+        System.out.println("identificacion"+estudianteUno.identificacion);
+        System.out.println("calificacion"+estudianteUno.Calificacion);
 
 
-
-
-
+    Estudiante estudianteDos=new Estudiante();
+    estudianteUno.nombre="Marcos";
+    estudianteUno.identificacion=55544;
+    estudianteUno.Calificacion=67;
+    
+        System.out.println("nombre"+estudianteDos.nombre);
+        System.out.println("identificacion"+estudianteDos.identificacion);
+        System.out.println("calificacion"+estudianteDos.Calificacion);
 
 
 

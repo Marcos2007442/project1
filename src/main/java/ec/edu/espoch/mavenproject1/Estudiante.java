@@ -7,8 +7,8 @@ package ec.edu.espoch.mavenproject1;
 public class Estudiante {
     //atributos
     public String nombre;
-    public String identificacion;
-    public int calificacion;
+    public int identificacion;
+    public double Calificacion;
     
     
     

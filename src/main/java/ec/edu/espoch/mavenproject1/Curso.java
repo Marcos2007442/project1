@@ -7,9 +7,8 @@ package ec.edu.espoch.mavenproject1;
 public class Curso {
     //atributos
     public String nombreDeCurso;
-    public String listaDeEstudiantes;
     public int codigo;
-    
+    public Estudiante[] estudiantesInscritos;
     
      //metodos
     public void agregarEstudiante(){
